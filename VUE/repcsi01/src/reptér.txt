@@ -1,0 +1,19 @@
+1.        Kérjük be a szélsebességet (km/óra).
+2.        Kérjük be az 1-s jelű kifutóhoz képest milyen szögben fúj a szél (szélirány).
+3.        Kérjük be felhősödés arányszámát.
+
+Ha a szélsebessége nagyobb mint 50 km/óra és 1-s kifutóhoz képest az eltérés nagyobb mint 30%, akkor írjuk ki, hogy "Nem ajánlott a felszállás".
+
+Ha szél sebessége nagyobb mint 100 km/óra, a széliránytól függetlenül írjuk ki, hogy "Tiltott felszállás".
+
+Ha a felhősödési arányszám nagyobb mint 45, akkor írassuk ki, hogy "Tiltott felszállás".
+
+Egyéb esetben "Szabad a felszállás." üzenet jelenjen meg.
+
+Ellenőrizzük a bemenő adatokat.
+1.        A szél sebessége nem lehet negatív érték és nagyobb mint 500 km/óra
+2.        A szélirány 0 és 180 fok közötti érték lehet
+3.        A felhősödési arányszám 1 és 100 közötti szám lehet. Ha felhasználó nem ebbe az intervallumba eső számot ír, figyelmeztessük.
+
+
+
